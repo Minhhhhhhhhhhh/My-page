@@ -86,7 +86,7 @@ p {
   font-weight: 400; }
 
 img {
-  width: 100%;
+  width: 21%;
   height: auto; }
 
 ul {
@@ -1757,6 +1757,46 @@ font-size: 1rem;
       background-color: #9c9c9c77;
       backdrop-filter: blur(4px);
     }
+
+    .instagram{
+      background: radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf
+      );
+    }
+.btn-1{
+  display: inline-flex; /* Sử dụng Flexbox và inline để không chiếm toàn bộ chiều rộng */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  padding: 0.8em 1.5em; /* Điều chỉnh padding */
+  font-size: 14px; /* Tăng kích thước chữ một chút */
+  text-align: center;
+  letter-spacing: 1.5px; /* Giảm khoảng cách giữa các chữ cái */
+  font-weight: 500;
+  color: #000000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.btn-1:hover{
+  background-color: #ffa197;
+  box-shadow: 0px 15px 20px 
+  rgba(233, 122, 78, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.btn-1:active{
+  transform: translateY(-1px);
+}
+
 
 /*# sourceMappingURL=style.css.map */
 
